@@ -3,16 +3,59 @@
     <head>
         <meta charset="utf-8">
         <title>엘리스 코딩 반찬</title>
+        <style>
+            h1{
+                border-bottom:10px solid green;
+                padding:10px;
+                margin-bottom:0;
+            }
+
+            h1 a{
+                text-decoration: none;
+            }
+            ol{
+                margin-top:0;
+                border-right:10px solid pink;
+            }
+
+            /* #container{
+                display:grid;
+                grid-template-columns: 150px 1fr;
+            } */
+
+            @media all and (min-width: 480px) {
+                #container{
+                    display:grid;
+                    grid-template-columns: 150px 1fr;
+                }
+            }
+        </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2DB95FVVQT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2DB95FVVQT');
+</script>
     </head>
     <body>
-        <h1>h1</h1>
-        <ol>
-            <li><a href="1.html">링크1</a></li>
-            <li><a href="2.html">링크2</a></li>
-            <li><a href="3.html">링크3</a></li>
-        </ol>
-    </body>
-</html>
+
+        <h1><a href="index.html">WEB</a></h1>
+        <!-- WWW is <strong>World <u>Wide</u> WEB</strong> -->
+        
+        <div id="container">
+            <ol>
+                <li><a href="1.html">html</a></li>
+                <li><a href="2.html">css</a></li>
+                <li><a href="3.html">javascript</a></li>
+            </ol>
+            <div>
+            <h2>welcome</h2>
+            Hello, WEB!!!!!
+            </div>
+        </div>
 
 <div id="disqus_thread"></div>
 <script>
@@ -33,3 +76,7 @@
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+ 
+</body>
+</html>
